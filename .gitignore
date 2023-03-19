@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/gradle,forgegradle,fontforge,intellij
-# Edit at https://www.toptal.com/developers/gitignore?templates=gradle,forgegradle,fontforge,intellij
+# Created by https://www.toptal.com/developers/gitignore/api/forgegradle,fontforge,intellij,gradle
+# Edit at https://www.toptal.com/developers/gitignore?templates=forgegradle,fontforge,intellij,gradle
 
 ### FontForge ###
 *.sfd-*
@@ -160,4 +160,4 @@ gradle-app.setting
 # Java heap dump
 *.hprof
 
-# End of https://www.toptal.com/developers/gitignore/api/gradle,forgegradle,fontforge,intellij
+# End of https://www.toptal.com/developers/gitignore/api/forgegradle,fontforge,intellij,gradle
