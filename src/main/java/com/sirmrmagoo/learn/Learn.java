@@ -1,6 +1,8 @@
 package com.sirmrmagoo.learn;
 
 import com.mojang.logging.LogUtils;
+import com.sirmrmagoo.learn.block.ModBlocks;
+import com.sirmrmagoo.learn.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -46,6 +48,9 @@ public class Learn {
 
     public Learn() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
