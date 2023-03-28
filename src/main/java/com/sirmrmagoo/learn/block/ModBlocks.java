@@ -1,6 +1,7 @@
 package com.sirmrmagoo.learn.block;
 
 import com.sirmrmagoo.learn.Learn;
+import com.sirmrmagoo.learn.block.custom.JumpyBlock;
 import com.sirmrmagoo.learn.item.ModCreativeModetab;
 import com.sirmrmagoo.learn.item.ModItems;
 
@@ -39,6 +40,10 @@ public class ModBlocks {
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops(),
                     UniformInt.of(4, 9)), ModCreativeModetab.MOD);
+
+    public static final RegistryObject<Block> JUMPY_BLOCK = registerBlock("jumpy_block",
+            () -> new JumpyBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModetab.MOD);
 
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {

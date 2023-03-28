@@ -1,10 +1,12 @@
 {
   "item.learn.zircon": "Zircon",
   "item.learn.raw_zircon": "Raw Zircon",
+  "item.learn.eight_ball": "Eight Ball",
 
   "block.learn.zircon_block": "Block Of Zircon",
   "block.learn.zircon_ore": "Zircon Ore",
   "block.learn.deepslate_zircon_ore": "Deepslate Zircon Ore",
+  "block.learn.jumpy_block": "Jumpy Block",
 
   "itemGroup.mod": "Mod"
 
